@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="app.js" defer></script>
+  <title>Encriptacion de textos</title>
+</head>
+
+<body>
+  <main class="contenedor">
+    <section class="encriptacion">
+      <form class="cuadro-encriptacion">
+        <fieldset class="reemplazar-cuadro">
+          <div class="cuadro-muñeco">
+            <img class="munieco" src="images/Muñeco.webp" alt="Persona con lupa buscando un objeto">
+          </div>
+          <h2 class="ningun-mensaje-encontrado">Ningún mensaje fue <br> encontrado</h2>
+          <p class="aviso-ingrese-texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </fieldset>
+        <span class="aviso-texto-copiado-invisible">¡Texto copiado!</span>
+        <button class="boton-copiar-invisible">Copiar</button>
+      </form>
+
+    </section>
+    <section class="principal">
+      <h1 class="logo"><img src="images/a.webp" alt="Logo de la pagina encriptacion de texto">
+      </h1>
+      <form class="formulario-ingresar-texto">
+        <fieldset class="caja-ingresar-texto">
+          <textarea name="ingresar-texto" class="ingresar-texto" autofocus placeholder="Ingrese el texto aqui" cols="35"
+            spellcheck="false"></textarea>
+        </fieldset>
+
+        <fieldset class="botones">
+          <div class="texto-informativo">
+            <p class="simbolo-exclamacion">!</p>
+            <p class="aviso-minusculas">Solo letras minúsculas y sin acentos</p>
+          </div>
+
+          <button class="boton-encriptar">Encriptar</button>
+          <button class="boton-desencriptar">Desencriptar</button>
+        </fieldset>
+      </form>
+    </section>
+
+
+  </main>
+</body>
+
+</html>
